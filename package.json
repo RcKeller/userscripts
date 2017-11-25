@@ -4,16 +4,14 @@
   "description": "Tampermonkey user scripts and utilities for DevOps",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-latest": "^6.24.1",
-    "webpack": "^3.5.4"
+    "eslint": "^4.1.1"
   },
   "scripts": {
-    "build": "webpack"
+    "addGlobalStyle": "./node_modules/.bin/babel ./src/util/addGlobalStyle.js -o ./dist/addGlobalStyle.js",
+    "waitForKeyElements": "./node_modules/.bin/babel ./src/util/waitForKeyElements.js -o ./dist/waitForKeyElements.js",
+    "puppet": "./node_modules/.bin/babel ./src/devops/puppet-enhancement-suite.js -o ./dist/puppet-enhancement-suite.js"
   },
   "repository": {
     "type": "git",
