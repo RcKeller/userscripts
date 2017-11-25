@@ -3,10 +3,10 @@ Inject Global Styles with top specificity
 @param {string} css - CSS rule string to inject
 
 EXAMPLE:
-addGlobalStyle('.entryBody { max-width: 900px; }');
-addGlobalStyle('#feedlyFrame { width: 1230px; }');
-addGlobalStyle('#feedlyPage { width: 900px; }');
-addGlobalStyle('.entryBody .content img { max-width: 850px; width: auto; height: auto; max-height: 600px;}');
+  addGlobalStyle('.entryBody { max-width: 900px; }');
+  addGlobalStyle('#feedlyFrame { width: 1230px; }');
+  addGlobalStyle('#feedlyPage { width: 900px; }');
+  addGlobalStyle('.entryBody .content img { max-width: 850px; width: auto; height: auto; max-height: 600px;}');
 */
 function addGlobalStyle (css) {
   let head

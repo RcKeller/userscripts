@@ -2,9 +2,7 @@
   "name": "userscripts",
   "version": "1.0.0",
   "description": "Tampermonkey user scripts and utilities for DevOps",
-  "dependencies": {
-    "glob": "^7.1.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",

@@ -1,20 +1,18 @@
-var glob = require("glob")
-
+/*
+(WEBPACK) BABEL LOADER
+Transpiles ES7 code from /src to cross-compatible scripts in /lib
+Requires manual updates to [entry] for new userscripts
+`npm run build` to run this.
+*/
 var input = __dirname + "/src"
-var output = __dirname + "/lib"
-var entry = glob.sync('./src/*.js')
+var output = __dirname + "/scripts"
 module.exports = {
-  /* puppet-enhancement-suite */
-  // entry: ['./src/puppet-enhancement-suite.js'],
-  // output: {
-  //   path: output,
-  //   filename: 'puppet-enhancement-suite.js'
-  // },
-  // entry: './src',
-  entry: [
-    './src/puppet-enhancement-suite.js',
-    // './src/addGlobalStyle.js',
-  ],
+  //  FORMAT: Destination : Source
+  entry: {
+    'waitForKeyElements': './src/util/waitForKeyElements.js',
+    'addGlobalStyle': './src/util/addGlobalStyle.js',
+    'puppet-enhancement-suite': './src/devops/puppet-enhancement-suite.js'
+  },
   output: {
     path: output,
     filename: '[name].js'
@@ -23,15 +21,10 @@ module.exports = {
   module: {
     loaders: [
       {
-        // test:  /\.js$/,
         test:  /\.js$/,
         include: input,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        // query: {
-        //   plugins: ['transform-runtime'],
-        //   presets: ['env']
-        // }
+        loader: 'babel-loader'
       }
     ]
   }
