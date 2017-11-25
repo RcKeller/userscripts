@@ -1,10 +1,8 @@
 {
-  "presets": ["env"],
+  "presets": [["env", {"loose":true, "strict":false}]],
   "plugins": [
-    ["transform-runtime", {
-      "polyfill": false,
-      "regenerator": true
+    ["transform-es2015-modules-commonjs", {
+      "strict" : false
     }]
-  ],
-  "ignore": []
+  ]
 }

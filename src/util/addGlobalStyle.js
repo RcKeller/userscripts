@@ -8,6 +8,8 @@ EXAMPLE:
   addGlobalStyle('#feedlyPage { width: 900px; }');
   addGlobalStyle('.entryBody .content img { max-width: 850px; width: auto; height: auto; max-height: 600px;}');
 */
+'use strict';
+
 function addGlobalStyle (css) {
   let head
   let style

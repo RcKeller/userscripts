@@ -19,8 +19,9 @@ Run webpack to transpile to cross-browser compatible ES5. Latest and proposed EC
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
+'use strict';
+
 (function () {
-  'use strict'
   //  ...
 })
 ```

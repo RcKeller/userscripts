@@ -1,5 +1,3 @@
-'use strict';
-
 /**
 Utility function for detecting and operating on AJAX content after mounting.
 IMPORTANT: This function requires your script to have loaded jQuery.
@@ -21,6 +19,8 @@ EXAMPLES:
       jNode.text ("This comment changed by waitForKeyElements().")
   }
 */
+'use strict';
+
 function waitForKeyElements(selector, callback, waitOnce, iframeSelector) {
   var targetNodes = void 0;
   var btargetsFound = void 0;

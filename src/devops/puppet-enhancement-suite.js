@@ -11,8 +11,9 @@
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
+'use strict';
+
 (function () {
-  'use strict'
   console.log('Puppet Enhancement Suite - Placeholder')
   //  ...
 })

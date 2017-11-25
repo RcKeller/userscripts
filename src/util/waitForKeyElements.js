@@ -19,6 +19,8 @@ EXAMPLES:
       jNode.text ("This comment changed by waitForKeyElements().")
   }
 */
+'use strict';
+
 function waitForKeyElements (selector, callback, waitOnce, iframeSelector) {
   let targetNodes
   let btargetsFound

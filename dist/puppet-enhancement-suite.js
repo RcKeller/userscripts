@@ -1,5 +1,3 @@
-'use strict';
-
 // ==UserScript==
 // @name         Puppet Enhancement Suite
 // @namespace    https://github.com/RcKeller/userscripts
@@ -13,9 +11,10 @@
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
-(function () {
-  'use strict';
 
+'use strict';
+
+(function () {
   console.log('Puppet Enhancement Suite - Placeholder');
   //  ...
 });
