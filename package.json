@@ -10,9 +10,9 @@
     "eslint": "^4.1.1"
   },
   "scripts": {
-    "addGlobalStyle": "./node_modules/.bin/babel ./src/util/addGlobalStyle.js -o ./dist/addGlobalStyle.js",
-    "waitForKeyElements": "./node_modules/.bin/babel ./src/util/waitForKeyElements.js -o ./dist/waitForKeyElements.js",
-    "puppet": "./node_modules/.bin/babel ./src/devops/puppet-enhancement-suite.js -o ./dist/puppet-enhancement-suite.js"
+    "addGlobalStyle": "./node_modules/.bin/babel ./functions/addGlobalStyle.js -o ./dist/addGlobalStyle.js",
+    "waitForKeyElements": "./node_modules/.bin/babel ./functions/waitForKeyElements.js -o ./dist/waitForKeyElements.js",
+    "puppet": "./node_modules/.bin/babel ./scripts/puppet-enhancement-suite.js -o ./dist/puppet-enhancement-suite.js"
   },
   "repository": {
     "type": "git",

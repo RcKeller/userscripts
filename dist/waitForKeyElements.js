@@ -1,3 +1,6 @@
+/*
+https://github.com/RcKeller/userscripts/raw/master/dist/waitForKeyElements.js
+*/
 /**
 Utility function for detecting and operating on AJAX content after mounting.
 IMPORTANT: This function requires your script to have loaded jQuery.

@@ -1,3 +1,6 @@
+/*
+https://github.com/RcKeller/userscripts/raw/master/dist/addGlobalStyle.js
+*/
 /**
 Inject Global Styles with top specificity
 @param {string} css - CSS rule string to inject
