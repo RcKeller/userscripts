@@ -12,7 +12,8 @@
   "scripts": {
     "addGlobalStyle": "./node_modules/.bin/babel ./functions/addGlobalStyle.js -o ./dist/addGlobalStyle.js",
     "waitForKeyElements": "./node_modules/.bin/babel ./functions/waitForKeyElements.js -o ./dist/waitForKeyElements.js",
-    "puppet": "./node_modules/.bin/babel ./scripts/puppet-enhancement-suite.js -o ./dist/puppet-enhancement-suite.js"
+    "puppet": "./node_modules/.bin/babel ./scripts/puppet-enhancement-suite.js -o ./dist/puppet-enhancement-suite.js",
+    "paperclip": "./node_modules/.bin/babel ./scripts/paperclip-game-bot.js -o ./dist/paperclip-game-bot.js"
   },
   "repository": {
     "type": "git",
